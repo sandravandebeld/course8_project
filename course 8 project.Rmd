@@ -89,7 +89,6 @@ There is no cross validation performed due to high compution time.
 apply model to the test set to make predicitons
 ```{r}
 test_predict <- predict(decisiontree, newdata= df_test)
-summary(test_predict)
 ```
 
 
